@@ -397,7 +397,7 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
 
     if (cameraController == null || !cameraController.value.isInitialized) {
       return const Text(
-        'Tap a camera',
+        'Click On camera',
         style: TextStyle(
           color: Colors.white,
           fontSize: 24.0,
