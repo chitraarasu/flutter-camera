@@ -5,7 +5,6 @@
 import 'dart:async';
 import 'dart:io';
 import 'dart:math';
-
 import 'package:camera/camera.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -246,8 +245,8 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
                   alignment: Alignment.center,
                   children: [
                     Container(
-                      width: 65,
-                      height: 25,
+                      width: 64,
+                      height: 24,
                       decoration: BoxDecoration(
                         color: Colors.grey,
                         borderRadius: BorderRadius.circular(50),
